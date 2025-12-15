@@ -247,8 +247,32 @@ export const projects = [
   {
    
      title: {
-      id: "Desain Mockup Untuk Halaman Mitra Web Relevania.com saat bekerja di PT Promedia Teknologi Indonesia",
-      en: "Mockup Design For Relevania.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+      id: "Desain Mockup Untuk Halaman Mitra Web AyoLahat.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Ayolahat.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/lahat.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/ayolahat/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Ayojombang.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For AyoJombang.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
     },
 
      description: {
@@ -265,7 +289,175 @@ export const projects = [
     ],
     demo: true,
     openSource: false,
-    demoUrl: "https://html.promediateknologi.id/project/relevania/html/desktop/index.html",
+    demoUrl: "https://html.promediateknologi.id/project/ayojombang/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Orbitnasional.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Orbitnasional.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/orbitnasional.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/orbitnasional/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Toplampung.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Toplampung.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/toplampung.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/toplampung/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Energi.Hallo.id saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Energi.Hallo.id Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/Hallo-energi.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/toplampung/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Emtien.Hallo.id saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Emtien.Hallo.id Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/Hallo-emiten.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/toplampung/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web kulturnativ.id saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For kulturnativ.id Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/kulturnativ.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/kulturnativ/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web BeritaAzza.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For BeritaAzza.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/beritaaza.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/kulturnativ/html/desktop/index.html",
+
+  },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web BeritaJogja.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For BeritaJogja.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/berita.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://html.promediateknologi.id/project/kulturnativ/html/desktop/index.html",
 
   },
 
