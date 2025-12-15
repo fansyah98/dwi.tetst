@@ -244,5 +244,28 @@ export const projects = [
     openSource: false,
 
   },
+  {
+   
+     title: {
+      id: "Desain Mockup Untuk Halaman Mitra Web Relevania.com",
+      en: "Mockup Design For Relevania.com Web Partner Page",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/relevania.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "SASS",
+      "Javascript",
+    ],
+    demo: false,
+    openSource: false,
+
+  },
 
 ];
