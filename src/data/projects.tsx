@@ -10,7 +10,7 @@ export const projects = [
       en: "HRD Management System (HRMS) is a system for managing all human resources (HR) processes in a company in a centralized, orderly, and automatic manner.",
     },
 
-    image: "/img/manajemen-hrd.png",
+    image: "/img/manajemen-hrd.PNG",
     technologies: [
       "PHP",
       "Codeigniter",
@@ -38,7 +38,7 @@ export const projects = [
     },
 
 
-    image: "/img/kecanduan-internet.png",
+    image: "/img/kecanduan-internet.PNG",
     technologies: [
       "PHP",
       "MYSQL",
@@ -62,7 +62,7 @@ export const projects = [
       en: "This is a digital Quran, made especially for people who are outside and want to read the Quran. Hopefully, this digital Quran will help friends in praying outside the home.",
     },
 
-    image: "/img/alqur'an-digital.png",
+    image: "/img/alqur'an-digital.PNG",
     technologies: ["Next.js",
        "React.js", 
        "Public API Integration", 
@@ -87,7 +87,7 @@ export const projects = [
     },
 
 
-    image: "/img/pt-brp-raksa.png",
+    image: "/img/pt-brp-raksa.PNG",
     technologies: ["Wodpress", "Elemetor", "WForm", "Cpanel", "MYSQL", "TablesPress"],
     demo: true,
     openSource: false,
@@ -105,7 +105,7 @@ export const projects = [
       en: "This is the PT BRP Raksa Wacana Agri Purnama website used for customer complaints, loan applications, and account openings, and credit simulation calculations.",
     },
 
-    image: "/img/e-form-digital-bank.png",
+    image: "/img/e-form-digital-bank.PNG",
     technologies: [
       "PHP",
       "Codeigniter",
@@ -132,7 +132,7 @@ export const projects = [
       en: "This is a college assignment website, making a simple bakery cashier",
     },
 
-    image: "/img/homebake.png",
+    image: "/img/homebake.PNG",
     technologies: [
       "PHP",
       "MySQL",
@@ -156,7 +156,7 @@ export const projects = [
       en: "This is the website for semester 6 assignments for the web programming course.",
     },
 
-    image: "/img/inventory.png",
+    image: "/img/inventory.PNG",
     technologies: [
       "PHP",
       "Codeigniter",
@@ -183,7 +183,7 @@ export const projects = [
       en: "The Customer Complaints PADM Information System is a web-based system designed to facilitate the process of receiving, managing, and handling customer complaints in a structured, fast, and transparent manner.",
     },
 
-    image: "/img/pdam-pengaduan.png",
+    image: "/img/pdam-pengaduan.PNG",
     technologies: [
       "PHP",
       "Codeigniter",
@@ -209,7 +209,7 @@ export const projects = [
       en: "The following is a description of the Medical Record Information System of Harapan Medika RMIK Hospital which is formal, neat, and ready to be used for PKL reports, proposals, or theses of STIKMI MAHARDIKA students.",
     },
 
-    image: "/img/medical-record.png",
+    image: "/img/medical-record.PNG",
     technologies: [
       "PHP",
       "Codeigniter",
@@ -234,7 +234,7 @@ export const projects = [
       en: "This project was created for the YouTube tutorial webcodingmedia HTML introduction to Bootstrap",
     },
 
-    image: "/img/kejawan-desain.png",
+    image: "/img/kejawan-desain.PNG",
     technologies: [
       "CSS",
       "HTML 5",
