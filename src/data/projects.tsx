@@ -247,8 +247,8 @@ export const projects = [
   {
    
      title: {
-      id: "Desain Mockup Untuk Halaman Mitra Web Relevania.com",
-      en: "Mockup Design For Relevania.com Web Partner Page",
+      id: "Desain Mockup Untuk Halaman Mitra Web Relevania.com saat bekerja di PT Promedia Teknologi Indonesia",
+      en: "Mockup Design For Relevania.com Web Partner Page while working at PT Promedia Teknologi Indonesia",
     },
 
      description: {
