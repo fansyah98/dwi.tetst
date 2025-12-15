@@ -263,8 +263,8 @@ export const projects = [
       "SASS",
       "Javascript",
     ],
-    demo: false,
-    openSource: true,
+    demo: true,
+    openSource: false,
     demoUrl: "https://html.promediateknologi.id/project/relevania/html/desktop/index.html",
 
   },
