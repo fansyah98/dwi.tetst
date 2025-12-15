@@ -328,7 +328,7 @@ export const projects = [
       en: "create a design view for the partner page using SASS",
     },
 
-    image: "/img/toplampung.PNG",
+    image: "/img/Toplampung.PNG",
     technologies: [
       "CSS",
       "HTML 5",
@@ -352,7 +352,7 @@ export const projects = [
       en: "create a design view for the partner page using SASS",
     },
 
-    image: "/img/Hallo-energi.PNG",
+    image: "/img/hallo-energi.PNG",
     technologies: [
       "CSS",
       "HTML 5",
