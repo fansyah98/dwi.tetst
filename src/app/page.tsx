@@ -20,6 +20,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { backendSkills, devopsSkills, frontendSkills } from "@/data/skills";
 import { projects } from "@/data/projects";
+import { certificates } from "@/data/certificates";
 import { bahasa } from "@/data/bahasa";
 import Link from "next/link";
 
@@ -73,6 +74,7 @@ const menuItems = [
   { id: "about", idLabel: "Tentang", enLabel: "About" },
   { id: "projects", idLabel: "Proyek", enLabel: "Projects" },
   { id: "skills", idLabel: "Keahlian", enLabel: "Skills" },
+  { id: "certificates", idLabel: "certificates", enLabel: "certificates" },
   { id: "contact", idLabel: "Kontak", enLabel: "Contact" },
 ];
 
@@ -289,6 +291,8 @@ const menuItems = [
         </div>
       </section>
 
+      
+
   
       <section id="skills" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
@@ -344,6 +348,53 @@ const menuItems = [
           </div>
         </div>
       </section>
+      
+      <section id="certificates" className="py-20 bg-background">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-16">
+      Certifications
+    </h2>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {certificates.map((cert, index) => (
+        <div
+          key={index}
+          className="bg-muted/30 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+        >
+          <div className="w-full h-40 mb-4 rounded-md bg-background flex items-center justify-center">
+            <img
+              src={cert.image}
+              alt={cert.title}
+              className="object-contain h-full"
+            />
+          </div>
+
+          <h3 className="text-lg font-semibold mb-1">
+            {cert.title}
+          </h3>
+          <p className="text-sm text-muted-foreground">
+            {cert.issuer}
+          </p>
+          <p className="text-xs text-muted-foreground mb-4">
+            {cert.year}
+          </p>
+
+          <a
+            href={cert.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full text-center px-4 py-2 text-sm font-medium rounded-md 
+                       bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+          >
+            Preview
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20">

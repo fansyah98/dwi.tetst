@@ -72,7 +72,7 @@ export const projects = [
       ],
     demo: false,
     openSource: true,
-    repoUrl: "https://github.com/hafizcode02/comodity-price-predict",
+    repoUrl: "https://website-qur-an-sn4d.vercel.app/",
   },
   {
   
@@ -240,9 +240,9 @@ export const projects = [
       "HTML 5",
       "Bootstrap CSS",
     ],
-    demo: false,
+    demo: true,
     openSource: false,
-
+    demoUrl: "https://pantai-kejawanan.vercel.app/",
   },
   {
    
