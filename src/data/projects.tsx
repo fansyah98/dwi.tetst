@@ -460,5 +460,52 @@ export const projects = [
     demoUrl: "https://html.promediateknologi.id/project/kulturnativ/html/desktop/index.html",
 
   },
+  {
+   
+     title: {
+      id: "meniru desain tampilan facebook menggunakan HTML, CSS, JAvascript",
+      en: "imitate facebook display design using HTML, CSS, JAvascripts ",
+    },
+
+     description: {
+      id: "membuat tampilan desain untuk halaman mitra menggunakan SASS",
+      en: "create a design view for the partner page using SASS",
+    },
+
+    image: "/img/socialbox.PNG",
+    technologies: [
+      "CSS",
+      "HTML 5",
+      "Javascript",
+    ],
+    demo: true,
+    openSource: false,
+    demoUrl: "https://socialboox.vercel.app/",
+
+  },
+    {
+    
+      title: {
+        id: "meniru desain tampilan facebook menggunakan HTML, CSS, JAvascript",
+        en: "imitate facebook display design using HTML, CSS, JAvascripts ",
+      },
+
+      description: {
+        id: "membuat form login sederhana dengan tema piala dunia",
+        en: "create a simple login form with a world cup theme",
+      },
+
+      image: "/img/loginwordcup.PNG",
+      technologies: [
+        "CSS",
+        "HTML 5",
+        "Javascript",
+      ],
+      demo: true,
+      openSource: false,
+      demoUrl: "https://login-qatar-2023.vercel.app/",
+      // openUrl: "https://login-qatar-2023.vercel.app/",
+
+    },
 
 ];

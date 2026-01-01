@@ -21,6 +21,22 @@ export const bahasa = {
       viewSource: "Lihat Source",
       preview: "Pratinjau",
     },
+    
+    sertifikat: {
+      title: "Sertifikat",
+      subtitle:
+        "Sertifikat pelatihan & bootcamp",
+      viewSource: "Lihat Source",
+      preview: "Pratinjau",
+    },
+
+      education: {
+      title: "Riwayat Pendidikan",
+      subtitle:
+        "Riawayat Pendidikan",
+      viewSource: "Lihat Source",
+      preview: "Pratinjau",
+    },
 
     contact: {
       title: "Hubungi Saya",
@@ -58,6 +74,25 @@ export const bahasa = {
       viewSource: "View Source",
       preview: "Preview",
     },
+
+     sertifikat: {
+      title: "Certifications",
+      subtitle:
+        "Training & bootcamp certificates",
+      viewSource: "Lihat Source",
+      preview: "Pratinjau",
+    },
+
+
+     education: {
+      title: "Educational background",
+      subtitle:
+        "Educational background",
+      viewSource: "Lihat Source",
+      preview: "Pratinjau",
+    },
+
+
 
     contact: {
       title: "Get In Touch",

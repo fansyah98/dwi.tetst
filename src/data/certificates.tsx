@@ -1,6 +1,11 @@
 export const certificates = [
   {
-    title: "GIT untuk Pemula",
+    // title: "GIT untuk Pemula",
+     title: {
+      id: "belajar GIT untuk pemula",
+      en: "learn GIT for beginners",
+    },
+
     issuer: "Codepolitan",
     year: "Berlaku sampai 21 Juni 2027",
     image: "/img/sertifikat/Certificate1.png",

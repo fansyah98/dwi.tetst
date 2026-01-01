@@ -22,6 +22,7 @@ import { backendSkills, devopsSkills, frontendSkills } from "@/data/skills";
 import { projects } from "@/data/projects";
 import { certificates } from "@/data/certificates";
 import { bahasa } from "@/data/bahasa";
+import { education } from "@/data/education";
 import Link from "next/link";
 
 
@@ -74,7 +75,7 @@ const menuItems = [
   { id: "about", idLabel: "Tentang", enLabel: "About" },
   { id: "projects", idLabel: "Proyek", enLabel: "Projects" },
   { id: "skills", idLabel: "Keahlian", enLabel: "Skills" },
-  { id: "certificates", idLabel: "certificates", enLabel: "certificates" },
+  { id: "Sertifikat", idLabel: "Sertifikat", enLabel: "certificates" },
   { id: "contact", idLabel: "Kontak", enLabel: "Contact" },
 ];
 
@@ -216,6 +217,24 @@ const menuItems = [
                   Laravel
                 </div>
                 <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                  Codeginter
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                  HTML
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                  Boostrap CSS
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                   Tailwind CSS
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                   jQuery
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
+                   CSS
+                </div>
+                <div className="bg-background rounded-full px-4 py-2 text-sm font-medium shadow-sm">
                   WodPress Costum
                 </div>
               </div>
@@ -350,50 +369,91 @@ const menuItems = [
       </section>
       
       <section id="certificates" className="py-20 bg-background">
-  <div className="container mx-auto px-4">
-    <h2 className="text-3xl font-bold text-center mb-16">
-      Certifications
-    </h2>
-
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-      {certificates.map((cert, index) => (
-        <div
-          key={index}
-          className="bg-muted/30 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
-        >
-          <div className="w-full h-40 mb-4 rounded-md bg-background flex items-center justify-center">
-            <img
-              src={cert.image}
-              alt={cert.title}
-              className="object-contain h-full"
-            />
-          </div>
-
-          <h3 className="text-lg font-semibold mb-1">
-            {cert.title}
-          </h3>
-          <p className="text-sm text-muted-foreground">
-            {cert.issuer}
+      <div className="container mx-auto px-4">
+         <h2 className="text-3xl font-bold text-center mb-16">
+            {bahasa[lang].sertifikat.title}
+             <p className="text-xl text-center mb-16">
+                {bahasa[lang].sertifikat.subtitle}
           </p>
-          <p className="text-xs text-muted-foreground mb-4">
-            {cert.year}
-          </p>
+          </h2>
 
-          <a
-            href={cert.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block w-full text-center px-4 py-2 text-sm font-medium rounded-md 
-                       bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-          >
-            Preview
-          </a>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {certificates.map((cert, index) => (
+            <div
+              key={index}
+              className="bg-muted/30 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="w-full h-40 mb-4 rounded-md bg-background flex items-center justify-center">
+                <img
+                  src={cert.image}
+                  alt={getText(cert.title, lang)}
+                  className="object-contain h-full"
+                />
+              </div>
+
+              <h3 className="text-lg font-semibold mb-1">
+                {getText(cert.title, lang)}      
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                {cert.issuer}
+              </p>
+              <p className="text-xs text-muted-foreground mb-4">
+                {cert.year}
+              </p>
+
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center px-4 py-2 text-sm font-medium rounded-md 
+                          bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              >
+                Preview
+              </a>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
-  </div>
-</section>
+      </div>
+      </section>
 
+      <section id="education" className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-16">
+            {bahasa[lang].education.title}
+             <p className="text-xl text-center mb-16">
+                {bahasa[lang].education.subtitle}
+          </p>
+          </h2>
+         
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {education.map((edu, index) => (
+              <div
+                key={index}
+                className="bg-muted/30 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              >
+                <h3 className="text-lg font-semibold mb-1">
+                  {getText(edu.degree, lang)}
+                </h3>
+
+                <p className="text-sm text-muted-foreground">
+                  {edu.institution}
+                </p>
+
+                <p className="text-xs text-muted-foreground mb-3">
+                  {edu.year}
+                </p>
+
+                {edu.description && (
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {getText(edu.description, lang)}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
 
       {/* Contact Section */}
